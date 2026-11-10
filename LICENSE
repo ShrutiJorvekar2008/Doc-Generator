@@ -1,0 +1,46 @@
+Copyright (c) 2026 Shruti Jorvekar. All rights reserved.
+
+This repository — including its source code, documentation, prompt
+templates, starter Office templates, generated sample outputs, and every
+accompanying asset (collectively, "the Work") — is a private portfolio
+submission published on GitHub for the sole purpose of allowing
+prospective employers and reviewers to evaluate the author's engineering
+work in connection with a specific hiring process.
+
+PERMITTED USE
+-------------
+- Reading, browsing, and inspecting the Work on GitHub.
+- Cloning the Work to a local machine solely to run or examine it for
+  the purpose of evaluating the author's candidacy.
+- Quoting short, clearly attributed snippets in private correspondence
+  with the author (e.g. interview feedback).
+
+PROHIBITED USE
+--------------
+Without the author's prior written consent, no person or organisation
+may:
+
+  1. Copy, fork, mirror, re-publish, re-host, or redistribute the Work
+     or any substantial portion of it, in any medium.
+  2. Modify the Work and present the result as their own creation.
+  3. Submit the Work, in whole or in part, as a response to any
+     coursework, interview assignment, take-home exercise, assessment,
+     certification task, hackathon entry, or similar evaluation, whether
+     for academic, professional, or commercial purposes.
+  4. Train, fine-tune, or evaluate machine-learning systems on the Work,
+     except insofar as public code-indexing by search engines is an
+     unavoidable incident of publishing on GitHub.
+  5. Use the Work, or any derivative of it, in a commercial product or
+     service.
+
+Third-party dependencies listed in `requirements.txt` and
+`frontend/package.json` remain governed by their own licenses; nothing
+in this notice restricts your use of those underlying packages.
+
+NO WARRANTY
+-----------
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT
+SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY
+ARISING FROM, OUT OF, OR IN CONNECTION WITH THE WORK OR ITS USE.

@@ -1,0 +1,356 @@
+{
+  "format": "xlsx",
+  "theme": {
+    "colors": {
+      "dk1": "windowText",
+      "lt1": "window",
+      "dk2": "1F497D",
+      "lt2": "EEECE1",
+      "accent1": "4F81BD",
+      "accent2": "C0504D",
+      "accent3": "9BBB59",
+      "accent4": "8064A2",
+      "accent5": "4BACC6",
+      "accent6": "F79646",
+      "hlink": "0000FF",
+      "folHlink": "800080"
+    },
+    "major_font": "Cambria",
+    "minor_font": "Calibri"
+  },
+  "sheets": [
+    {
+      "name": "Sales",
+      "dimensions": "A1:F7",
+      "max_row": 7,
+      "max_col": 6,
+      "header_row": 4,
+      "freeze_panes": "A5",
+      "merged": [
+        "A1:F1"
+      ],
+      "columns": [
+        {
+          "col": "A",
+          "width": 14.0,
+          "header": "Date",
+          "header_style": {
+            "font": "Arial",
+            "size": null,
+            "bold": true,
+            "italic": false,
+            "font_color": "00FFFFFF",
+            "fill": "001F3A5F",
+            "number_format": "General",
+            "align": "center",
+            "wrap": null,
+            "border": {
+              "left": "thin",
+              "right": "thin",
+              "top": "thin",
+              "bottom": "thin"
+            }
+          },
+          "sample_style": {
+            "font": "Arial",
+            "size": 10.0,
+            "bold": false,
+            "italic": false,
+            "font_color": null,
+            "fill": null,
+            "number_format": "dd-mmm-yyyy",
+            "align": null,
+            "wrap": null,
+            "border": {
+              "left": "thin",
+              "right": "thin",
+              "top": "thin",
+              "bottom": "thin"
+            }
+          }
+        },
+        {
+          "col": "B",
+          "width": 18.0,
+          "header": "Customer",
+          "header_style": {
+            "font": "Arial",
+            "size": null,
+            "bold": true,
+            "italic": false,
+            "font_color": "00FFFFFF",
+            "fill": "001F3A5F",
+            "number_format": "General",
+            "align": "center",
+            "wrap": null,
+            "border": {
+              "left": "thin",
+              "right": "thin",
+              "top": "thin",
+              "bottom": "thin"
+            }
+          },
+          "sample_style": {
+            "font": "Arial",
+            "size": 10.0,
+            "bold": false,
+            "italic": false,
+            "font_color": null,
+            "fill": null,
+            "number_format": "General",
+            "align": null,
+            "wrap": null,
+            "border": {
+              "left": "thin",
+              "right": "thin",
+              "top": "thin",
+              "bottom": "thin"
+            }
+          }
+        },
+        {
+          "col": "C",
+          "width": 20.0,
+          "header": "Product",
+          "header_style": {
+            "font": "Arial",
+            "size": null,
+            "bold": true,
+            "italic": false,
+            "font_color": "00FFFFFF",
+            "fill": "001F3A5F",
+            "number_format": "General",
+            "align": "center",
+            "wrap": null,
+            "border": {
+              "left": "thin",
+              "right": "thin",
+              "top": "thin",
+              "bottom": "thin"
+            }
+          },
+          "sample_style": {
+            "font": "Arial",
+            "size": 10.0,
+            "bold": false,
+            "italic": false,
+            "font_color": null,
+            "fill": null,
+            "number_format": "General",
+            "align": null,
+            "wrap": null,
+            "border": {
+              "left": "thin",
+              "right": "thin",
+              "top": "thin",
+              "bottom": "thin"
+            }
+          }
+        },
+        {
+          "col": "D",
+          "width": 12.0,
+          "header": "Status",
+          "header_style": {
+            "font": "Arial",
+            "size": null,
+            "bold": true,
+            "italic": false,
+            "font_color": "00FFFFFF",
+            "fill": "001F3A5F",
+            "number_format": "General",
+            "align": "center",
+            "wrap": null,
+            "border": {
+              "left": "thin",
+              "right": "thin",
+              "top": "thin",
+              "bottom": "thin"
+            }
+          },
+          "sample_style": {
+            "font": "Arial",
+            "size": 10.0,
+            "bold": false,
+            "italic": false,
+            "font_color": null,
+            "fill": null,
+            "number_format": "General",
+            "align": null,
+            "wrap": null,
+            "border": {
+              "left": "thin",
+              "right": "thin",
+              "top": "thin",
+              "bottom": "thin"
+            }
+          }
+        },
+        {
+          "col": "E",
+          "width": 14.0,
+          "header": "Amount",
+          "header_style": {
+            "font": "Arial",
+            "size": null,
+            "bold": true,
+            "italic": false,
+            "font_color": "00FFFFFF",
+            "fill": "001F3A5F",
+            "number_format": "General",
+            "align": "center",
+            "wrap": null,
+            "border": {
+              "left": "thin",
+              "right": "thin",
+              "top": "thin",
+              "bottom": "thin"
+            }
+          },
+          "sample_style": {
+            "font": "Arial",
+            "size": 10.0,
+            "bold": false,
+            "italic": false,
+            "font_color": null,
+            "fill": null,
+            "number_format": "\"$\"#,##0.00",
+            "align": null,
+            "wrap": null,
+            "border": {
+              "left": "thin",
+              "right": "thin",
+              "top": "thin",
+              "bottom": "thin"
+            }
+          }
+        },
+        {
+          "col": "F",
+          "width": 12.0,
+          "header": "Owner",
+          "header_style": {
+            "font": "Arial",
+            "size": null,
+            "bold": true,
+            "italic": false,
+            "font_color": "00FFFFFF",
+            "fill": "001F3A5F",
+            "number_format": "General",
+            "align": "center",
+            "wrap": null,
+            "border": {
+              "left": "thin",
+              "right": "thin",
+              "top": "thin",
+              "bottom": "thin"
+            }
+          },
+          "sample_style": {
+            "font": "Arial",
+            "size": 10.0,
+            "bold": false,
+            "italic": false,
+            "font_color": null,
+            "fill": null,
+            "number_format": "General",
+            "align": null,
+            "wrap": null,
+            "border": {
+              "left": "thin",
+              "right": "thin",
+              "top": "thin",
+              "bottom": "thin"
+            }
+          }
+        }
+      ],
+      "row_heights": {},
+      "preview_rows": [
+        [
+          "Acme Corp \u2014 Sales Tracker",
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Total revenue:",
+          null,
+          null,
+          "=SUM(E5:E500)",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Date",
+          "Customer",
+          "Product",
+          "Status",
+          "Amount",
+          "Owner"
+        ],
+        [
+          "2026-07-05 00:00:00",
+          "Globex",
+          "Analytics Suite",
+          "Won",
+          "12500",
+          "Priya"
+        ],
+        [
+          "2026-07-19 00:00:00",
+          "Initech",
+          "Platform",
+          "Open",
+          "8200",
+          "Marco"
+        ],
+        [
+          "2026-08-02 00:00:00",
+          "Umbrella",
+          "Analytics Suite",
+          "Won",
+          "15400",
+          "Priya"
+        ]
+      ],
+      "formulas": [
+        "D2"
+      ],
+      "conditional_formatting": 1,
+      "data_validations": 1,
+      "tables": [],
+      "images": [
+        {
+          "anchor": "H1",
+          "w_px": 360,
+          "h_px": 120
+        }
+      ],
+      "charts": 0,
+      "auto_filter": null,
+      "page_setup": {
+        "orientation": null,
+        "paper": null,
+        "header": "",
+        "footer": "Acme Corp \u2014 Confidential"
+      },
+      "tab_color": "002A9D8F"
+    }
+  ],
+  "stats": {
+    "sheets": 1,
+    "images": 1,
+    "charts": 0
+  }
+}

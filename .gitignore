@@ -1,0 +1,36 @@
+# --- secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# --- Node / frontend build output ---
+node_modules/
+frontend/dist/
+
+# --- runtime data (uploads, SQLite, caches) ---
+data/
+backend/test.db
+backend/test_files/
+*.db
+*.sqlite
+*.sqlite3
+
+# --- IDE / OS cruft ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- local scratchpads / logs ---
+*.log
+scratch/
+tmp/

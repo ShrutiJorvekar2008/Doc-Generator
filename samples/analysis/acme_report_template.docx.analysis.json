@@ -1,0 +1,220 @@
+{
+  "format": "docx",
+  "theme": {
+    "colors": {
+      "dk1": "windowText",
+      "lt1": "window",
+      "dk2": "1F497D",
+      "lt2": "EEECE1",
+      "accent1": "4F81BD",
+      "accent2": "C0504D",
+      "accent3": "9BBB59",
+      "accent4": "8064A2",
+      "accent5": "4BACC6",
+      "accent6": "F79646",
+      "hlink": "0000FF",
+      "folHlink": "800080"
+    },
+    "major_font": "Calibri",
+    "minor_font": "Cambria"
+  },
+  "sections": [
+    {
+      "index": 0,
+      "page_w_in": 8.5,
+      "page_h_in": 11.0,
+      "orientation": "PORTRAIT (0)",
+      "margins_in": {
+        "top": 1.1,
+        "bottom": 0.9,
+        "left": 0.9,
+        "right": 0.9
+      },
+      "header_distance_in": 0.5,
+      "footer_distance_in": 0.5,
+      "different_first_page": false,
+      "header_text": [
+        "Acme Corp \u2014 Confidential"
+      ],
+      "footer_text": [
+        "Acme Corp \u00b7 Quarterly Report \u00b7 Page"
+      ],
+      "header_has_table": false,
+      "header_images": 1,
+      "footer_images": 0,
+      "footer_has_page_number_field": true
+    }
+  ],
+  "styles_used": {
+    "Title": {
+      "font": "Georgia",
+      "size_pt": 26.0,
+      "bold": null,
+      "color": "1F3A5F"
+    },
+    "Normal": {
+      "font": "Calibri",
+      "size_pt": 11.0,
+      "bold": null,
+      "color": null
+    },
+    "Heading 1": {
+      "font": "Georgia",
+      "size_pt": 16.0,
+      "bold": true,
+      "color": "2A9D8F"
+    }
+  },
+  "headings": [
+    {
+      "index": 0,
+      "level": "Title",
+      "text": "Quarterly Business Report"
+    },
+    {
+      "index": 2,
+      "level": "Heading 1",
+      "text": "1. Executive Summary"
+    },
+    {
+      "index": 4,
+      "level": "Heading 1",
+      "text": "2. Regional Performance"
+    },
+    {
+      "index": 6,
+      "level": "Heading 1",
+      "text": "3. Outlook"
+    }
+  ],
+  "paragraphs": [
+    {
+      "index": 0,
+      "style": "Title",
+      "text": "Quarterly Business Report",
+      "align": null,
+      "font": "Georgia",
+      "size_pt": 26.0,
+      "bold": null,
+      "italic": null,
+      "color": null
+    },
+    {
+      "index": 1,
+      "style": "Normal",
+      "text": "Prepared for the Executive Team \u00b7 Q3 2026",
+      "align": null,
+      "font": "Calibri",
+      "size_pt": 11.0,
+      "bold": null,
+      "italic": null,
+      "color": null
+    },
+    {
+      "index": 2,
+      "style": "Heading 1",
+      "text": "1. Executive Summary",
+      "align": null,
+      "font": "Georgia",
+      "size_pt": 16.0,
+      "bold": null,
+      "italic": null,
+      "color": null
+    },
+    {
+      "index": 3,
+      "style": "Normal",
+      "text": "Acme Corp delivered steady growth in Q3 2026. Revenue increased 12% year over year, driven by stron\u2026",
+      "align": null,
+      "font": "Calibri",
+      "size_pt": 11.0,
+      "bold": null,
+      "italic": null,
+      "color": null
+    },
+    {
+      "index": 4,
+      "style": "Heading 1",
+      "text": "2. Regional Performance",
+      "align": null,
+      "font": "Georgia",
+      "size_pt": 16.0,
+      "bold": null,
+      "italic": null,
+      "color": null
+    },
+    {
+      "index": 5,
+      "style": "Normal",
+      "text": "The table below summarises revenue by region.",
+      "align": null,
+      "font": "Calibri",
+      "size_pt": 11.0,
+      "bold": null,
+      "italic": null,
+      "color": null
+    },
+    {
+      "index": 6,
+      "style": "Heading 1",
+      "text": "3. Outlook",
+      "align": null,
+      "font": "Georgia",
+      "size_pt": 16.0,
+      "bold": null,
+      "italic": null,
+      "color": null
+    },
+    {
+      "index": 7,
+      "style": "Normal",
+      "text": "We expect continued momentum in Q4, supported by new product launches and expanded partnerships.",
+      "align": null,
+      "font": "Calibri",
+      "size_pt": 11.0,
+      "bold": null,
+      "italic": null,
+      "color": null
+    }
+  ],
+  "tables": [
+    {
+      "index": 0,
+      "rows": 4,
+      "cols": 3,
+      "style": "Table Grid",
+      "borders": "inherited from style 'Table Grid'",
+      "header_text": [
+        "Region",
+        "Revenue (USD M)",
+        "Growth"
+      ],
+      "header_shading": [
+        "1F3A5F",
+        "1F3A5F",
+        "1F3A5F"
+      ],
+      "sample_row": [
+        "North America",
+        "42.1",
+        "+11%"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "where": "section0.header",
+      "placement": "inline",
+      "name": "Picture 1",
+      "width_in": 1.3,
+      "height_in": 0.43,
+      "file": "/word/media/image1.png"
+    }
+  ],
+  "stats": {
+    "paragraphs": 8,
+    "tables": 1,
+    "images": 1,
+    "sections": 1
+  }
+}

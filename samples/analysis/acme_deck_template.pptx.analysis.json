@@ -1,0 +1,623 @@
+{
+  "format": "pptx",
+  "theme": {
+    "colors": {
+      "dk1": "windowText",
+      "lt1": "window",
+      "dk2": "1F497D",
+      "lt2": "EEECE1",
+      "accent1": "4F81BD",
+      "accent2": "C0504D",
+      "accent3": "9BBB59",
+      "accent4": "8064A2",
+      "accent5": "4BACC6",
+      "accent6": "F79646",
+      "hlink": "0000FF",
+      "folHlink": "800080"
+    },
+    "major_font": "Calibri",
+    "minor_font": "Calibri"
+  },
+  "slide_size_in": {
+    "w": 10.0,
+    "h": 7.5
+  },
+  "masters": [
+    {
+      "index": 0,
+      "title_style": {
+        "font": "Georgia",
+        "size_pt": 44.0,
+        "color": "1F3A5F"
+      },
+      "body_style": {
+        "font": "+mn-lt",
+        "size_pt": 32.0,
+        "color": "tx1"
+      },
+      "shapes": [
+        {
+          "index": 0,
+          "name": "Title Placeholder 1",
+          "type": "PLACEHOLDER",
+          "x_in": 0.5,
+          "y_in": 0.3,
+          "w_in": 9.0,
+          "h_in": 1.25,
+          "placeholder": "TITLE",
+          "text": "Click to edit Master title style",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "color": null
+        },
+        {
+          "index": 1,
+          "name": "Text Placeholder 2",
+          "type": "PLACEHOLDER",
+          "x_in": 0.5,
+          "y_in": 1.75,
+          "w_in": 9.0,
+          "h_in": 4.95,
+          "placeholder": "BODY",
+          "text": "Click to edit Master text styles Second level Third level Fourth level Fifth level",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "color": null
+        },
+        {
+          "index": 2,
+          "name": "Date Placeholder 3",
+          "type": "PLACEHOLDER",
+          "x_in": 0.5,
+          "y_in": 6.95,
+          "w_in": 2.33,
+          "h_in": 0.4,
+          "placeholder": "DATE",
+          "text": "1/27/13"
+        },
+        {
+          "index": 3,
+          "name": "Footer Placeholder 4",
+          "type": "PLACEHOLDER",
+          "x_in": 3.42,
+          "y_in": 6.95,
+          "w_in": 3.17,
+          "h_in": 0.4,
+          "placeholder": "FOOTER",
+          "text": ""
+        },
+        {
+          "index": 4,
+          "name": "Slide Number Placeholder 5",
+          "type": "PLACEHOLDER",
+          "x_in": 7.17,
+          "y_in": 6.95,
+          "w_in": 2.33,
+          "h_in": 0.4,
+          "placeholder": "SLIDE_NUMBER",
+          "text": "\u2039#\u203a"
+        },
+        {
+          "index": 5,
+          "name": "Rectangle 1",
+          "type": "AUTO_SHAPE",
+          "x_in": 0.0,
+          "y_in": 0.0,
+          "w_in": 10.0,
+          "h_in": 0.25,
+          "text": "",
+          "fill": "1F3A5F"
+        },
+        {
+          "index": 6,
+          "name": "Picture 2",
+          "type": "PICTURE",
+          "x_in": 8.2,
+          "y_in": 0.35,
+          "w_in": 1.5,
+          "h_in": 0.5,
+          "image": {
+            "content_type": "image/png",
+            "px": [
+              360,
+              120
+            ]
+          }
+        }
+      ],
+      "layouts": [
+        {
+          "index": 0,
+          "name": "Title Slide",
+          "placeholders": [
+            {
+              "idx": 0,
+              "type": "CENTER_TITLE",
+              "name": "Title 1"
+            },
+            {
+              "idx": 1,
+              "type": "SUBTITLE",
+              "name": "Subtitle 2"
+            },
+            {
+              "idx": 10,
+              "type": "DATE",
+              "name": "Date Placeholder 3"
+            },
+            {
+              "idx": 11,
+              "type": "FOOTER",
+              "name": "Footer Placeholder 4"
+            },
+            {
+              "idx": 12,
+              "type": "SLIDE_NUMBER",
+              "name": "Slide Number Placeholder 5"
+            }
+          ],
+          "non_placeholder_shapes": []
+        },
+        {
+          "index": 1,
+          "name": "Title and Content",
+          "placeholders": [
+            {
+              "idx": 0,
+              "type": "TITLE",
+              "name": "Title 1"
+            },
+            {
+              "idx": 1,
+              "type": "OBJECT",
+              "name": "Content Placeholder 2"
+            },
+            {
+              "idx": 10,
+              "type": "DATE",
+              "name": "Date Placeholder 3"
+            },
+            {
+              "idx": 11,
+              "type": "FOOTER",
+              "name": "Footer Placeholder 4"
+            },
+            {
+              "idx": 12,
+              "type": "SLIDE_NUMBER",
+              "name": "Slide Number Placeholder 5"
+            }
+          ],
+          "non_placeholder_shapes": []
+        },
+        {
+          "index": 2,
+          "name": "Section Header",
+          "placeholders": [
+            {
+              "idx": 0,
+              "type": "TITLE",
+              "name": "Title 1"
+            },
+            {
+              "idx": 1,
+              "type": "BODY",
+              "name": "Text Placeholder 2"
+            },
+            {
+              "idx": 10,
+              "type": "DATE",
+              "name": "Date Placeholder 3"
+            },
+            {
+              "idx": 11,
+              "type": "FOOTER",
+              "name": "Footer Placeholder 4"
+            },
+            {
+              "idx": 12,
+              "type": "SLIDE_NUMBER",
+              "name": "Slide Number Placeholder 5"
+            }
+          ],
+          "non_placeholder_shapes": []
+        },
+        {
+          "index": 3,
+          "name": "Two Content",
+          "placeholders": [
+            {
+              "idx": 0,
+              "type": "TITLE",
+              "name": "Title 1"
+            },
+            {
+              "idx": 1,
+              "type": "OBJECT",
+              "name": "Content Placeholder 2"
+            },
+            {
+              "idx": 2,
+              "type": "OBJECT",
+              "name": "Content Placeholder 3"
+            },
+            {
+              "idx": 10,
+              "type": "DATE",
+              "name": "Date Placeholder 4"
+            },
+            {
+              "idx": 11,
+              "type": "FOOTER",
+              "name": "Footer Placeholder 5"
+            },
+            {
+              "idx": 12,
+              "type": "SLIDE_NUMBER",
+              "name": "Slide Number Placeholder 6"
+            }
+          ],
+          "non_placeholder_shapes": []
+        },
+        {
+          "index": 4,
+          "name": "Comparison",
+          "placeholders": [
+            {
+              "idx": 0,
+              "type": "TITLE",
+              "name": "Title 1"
+            },
+            {
+              "idx": 1,
+              "type": "BODY",
+              "name": "Text Placeholder 2"
+            },
+            {
+              "idx": 2,
+              "type": "OBJECT",
+              "name": "Content Placeholder 3"
+            },
+            {
+              "idx": 3,
+              "type": "BODY",
+              "name": "Text Placeholder 4"
+            },
+            {
+              "idx": 4,
+              "type": "OBJECT",
+              "name": "Content Placeholder 5"
+            },
+            {
+              "idx": 10,
+              "type": "DATE",
+              "name": "Date Placeholder 6"
+            },
+            {
+              "idx": 11,
+              "type": "FOOTER",
+              "name": "Footer Placeholder 7"
+            },
+            {
+              "idx": 12,
+              "type": "SLIDE_NUMBER",
+              "name": "Slide Number Placeholder 8"
+            }
+          ],
+          "non_placeholder_shapes": []
+        },
+        {
+          "index": 5,
+          "name": "Title Only",
+          "placeholders": [
+            {
+              "idx": 0,
+              "type": "TITLE",
+              "name": "Title 1"
+            },
+            {
+              "idx": 10,
+              "type": "DATE",
+              "name": "Date Placeholder 2"
+            },
+            {
+              "idx": 11,
+              "type": "FOOTER",
+              "name": "Footer Placeholder 3"
+            },
+            {
+              "idx": 12,
+              "type": "SLIDE_NUMBER",
+              "name": "Slide Number Placeholder 4"
+            }
+          ],
+          "non_placeholder_shapes": []
+        },
+        {
+          "index": 6,
+          "name": "Blank",
+          "placeholders": [
+            {
+              "idx": 10,
+              "type": "DATE",
+              "name": "Date Placeholder 1"
+            },
+            {
+              "idx": 11,
+              "type": "FOOTER",
+              "name": "Footer Placeholder 2"
+            },
+            {
+              "idx": 12,
+              "type": "SLIDE_NUMBER",
+              "name": "Slide Number Placeholder 3"
+            }
+          ],
+          "non_placeholder_shapes": []
+        },
+        {
+          "index": 7,
+          "name": "Content with Caption",
+          "placeholders": [
+            {
+              "idx": 0,
+              "type": "TITLE",
+              "name": "Title 1"
+            },
+            {
+              "idx": 1,
+              "type": "OBJECT",
+              "name": "Content Placeholder 2"
+            },
+            {
+              "idx": 2,
+              "type": "BODY",
+              "name": "Text Placeholder 3"
+            },
+            {
+              "idx": 10,
+              "type": "DATE",
+              "name": "Date Placeholder 4"
+            },
+            {
+              "idx": 11,
+              "type": "FOOTER",
+              "name": "Footer Placeholder 5"
+            },
+            {
+              "idx": 12,
+              "type": "SLIDE_NUMBER",
+              "name": "Slide Number Placeholder 6"
+            }
+          ],
+          "non_placeholder_shapes": []
+        },
+        {
+          "index": 8,
+          "name": "Picture with Caption",
+          "placeholders": [
+            {
+              "idx": 0,
+              "type": "TITLE",
+              "name": "Title 1"
+            },
+            {
+              "idx": 1,
+              "type": "PICTURE",
+              "name": "Picture Placeholder 2"
+            },
+            {
+              "idx": 2,
+              "type": "BODY",
+              "name": "Text Placeholder 3"
+            },
+            {
+              "idx": 10,
+              "type": "DATE",
+              "name": "Date Placeholder 4"
+            },
+            {
+              "idx": 11,
+              "type": "FOOTER",
+              "name": "Footer Placeholder 5"
+            },
+            {
+              "idx": 12,
+              "type": "SLIDE_NUMBER",
+              "name": "Slide Number Placeholder 6"
+            }
+          ],
+          "non_placeholder_shapes": []
+        },
+        {
+          "index": 9,
+          "name": "Title and Vertical Text",
+          "placeholders": [
+            {
+              "idx": 0,
+              "type": "TITLE",
+              "name": "Title 1"
+            },
+            {
+              "idx": 1,
+              "type": "BODY",
+              "name": "Vertical Text Placeholder 2"
+            },
+            {
+              "idx": 10,
+              "type": "DATE",
+              "name": "Date Placeholder 3"
+            },
+            {
+              "idx": 11,
+              "type": "FOOTER",
+              "name": "Footer Placeholder 4"
+            },
+            {
+              "idx": 12,
+              "type": "SLIDE_NUMBER",
+              "name": "Slide Number Placeholder 5"
+            }
+          ],
+          "non_placeholder_shapes": []
+        },
+        {
+          "index": 10,
+          "name": "Vertical Title and Text",
+          "placeholders": [
+            {
+              "idx": 0,
+              "type": "TITLE",
+              "name": "Vertical Title 1"
+            },
+            {
+              "idx": 1,
+              "type": "BODY",
+              "name": "Vertical Text Placeholder 2"
+            },
+            {
+              "idx": 10,
+              "type": "DATE",
+              "name": "Date Placeholder 3"
+            },
+            {
+              "idx": 11,
+              "type": "FOOTER",
+              "name": "Footer Placeholder 4"
+            },
+            {
+              "idx": 12,
+              "type": "SLIDE_NUMBER",
+              "name": "Slide Number Placeholder 5"
+            }
+          ],
+          "non_placeholder_shapes": []
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Title Slide",
+      "shapes": [
+        {
+          "index": 0,
+          "name": "Title 1",
+          "type": "PLACEHOLDER",
+          "x_in": 0.75,
+          "y_in": 2.33,
+          "w_in": 8.5,
+          "h_in": 1.61,
+          "placeholder": "CENTER_TITLE",
+          "text": "Acme Corp Product Roadmap",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "color": null
+        },
+        {
+          "index": 1,
+          "name": "Subtitle 2",
+          "type": "PLACEHOLDER",
+          "x_in": 1.5,
+          "y_in": 4.25,
+          "w_in": 7.0,
+          "h_in": 1.92,
+          "placeholder": "SUBTITLE",
+          "text": "Strategy briefing \u00b7 2026",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "color": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "index": 1,
+      "layout": "Title and Content",
+      "shapes": [
+        {
+          "index": 0,
+          "name": "Title 1",
+          "type": "PLACEHOLDER",
+          "x_in": 0.5,
+          "y_in": 0.3,
+          "w_in": 9.0,
+          "h_in": 1.25,
+          "placeholder": "TITLE",
+          "text": "Key Priorities",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "color": null
+        },
+        {
+          "index": 1,
+          "name": "Content Placeholder 2",
+          "type": "PLACEHOLDER",
+          "x_in": 0.5,
+          "y_in": 1.75,
+          "w_in": 9.0,
+          "h_in": 4.95,
+          "placeholder": "OBJECT",
+          "text": "Grow enterprise revenue by 15% Launch the analytics suite in Q4 Expand partner network in APAC",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "color": null
+        }
+      ],
+      "notes": null
+    },
+    {
+      "index": 2,
+      "layout": "Title Only",
+      "shapes": [
+        {
+          "index": 0,
+          "name": "Title 1",
+          "type": "PLACEHOLDER",
+          "x_in": 0.5,
+          "y_in": 0.3,
+          "w_in": 9.0,
+          "h_in": 1.25,
+          "placeholder": "TITLE",
+          "text": "Regional Revenue",
+          "font": null,
+          "size_pt": null,
+          "bold": null,
+          "color": null
+        },
+        {
+          "index": 1,
+          "name": "Table 2",
+          "type": "TABLE",
+          "x_in": 0.7,
+          "y_in": 2.0,
+          "w_in": 8.6,
+          "h_in": 2.2,
+          "table": {
+            "rows": 4,
+            "cols": 3,
+            "header": [
+              "Region",
+              "Revenue (USD M)",
+              "Growth"
+            ]
+          }
+        }
+      ],
+      "notes": null
+    }
+  ],
+  "stats": {
+    "slides": 3,
+    "masters": 1,
+    "layouts": 11,
+    "pictures": 0
+  }
+}
