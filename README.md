@@ -1,14 +1,9 @@
 # DocGen — AI Chatbot & Document Generation Platform
 
 > **Author:** Shruti Jorvekar  
-> **Submission:** take-home assessment — *AI Chatbot & Document Generation Platform*  
+> **Submission:** *AI Chatbot & Document Generation Platform*  
 > **License:** All rights reserved — review only. See [LICENSE](LICENSE).
->
-> ⚠️ **Do not submit this repository as your own.** It is published publicly so that
-> the hiring team reviewing my candidacy can run and inspect it. Copying it — in
-> whole or in part — as a response to any other assessment or coursework violates
-> the LICENSE and the honour code of most hiring processes. Short, attributed
-> snippets for discussion are fine; wholesale reuse is not.
+
 
 Session-based, multi-turn AI chatbot that **analyses an uploaded Word / PowerPoint / Excel file in depth and then edits or
 generates content while preserving the original layout, fonts, colours, logos, headers/footers, slide masters and
